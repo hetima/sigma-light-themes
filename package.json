@@ -1,0 +1,124 @@
+{
+  "$schema": "./node_modules/@sigma-file-manager/api/manifest.schema.json",
+  "id": "hetima.light-themes",
+  "name": "Hetima Light Themes",
+  "version": "0.1.0",
+  "publisher": {
+    "name": "hetima",
+    "url": "https://github.com/hetima"
+  },
+  "repository": "https://github.com/hetima/sigma-light-themes",
+  "license": "MIT",
+  "categories": [
+    "Appearance"
+  ],
+  "type": "module",
+  "extensionType": "api",
+  "tags": [
+    "hetima",
+    "theme",
+    "themes",
+    "frappe"
+  ],
+  "permissions": [],
+  "contributes": {
+    "themes": [
+      {
+        "id": "heitma-theme-light-sunset",
+        "title": "Light Sunset",
+        "description": "Light theme",
+        "baseTheme": "light",
+        "variables": {
+          "--background-2": "38 36% 90%",
+          "--background-3": "42 48% 96%",
+          "--window-toolbar": "40 34% 93%",
+          "--icon": "32 12% 32%",
+          "--background": "42 52% 97%",
+          "--foreground": "32 20% 15%",
+          "--muted": "38 34% 91%",
+          "--muted-foreground": "31 12% 34%",
+          "--popover": "42 50% 98%",
+          "--popover-foreground": "32 20% 15%",
+          "--card": "42 42% 96%",
+          "--card-foreground": "32 20% 15%",
+          "--border": "36 26% 80%",
+          "--input": "40 30% 92%",
+          "--primary": "31 18% 24%",
+          "--primary-foreground": "42 60% 98%",
+          "--secondary": "38 34% 91%",
+          "--secondary-foreground": "32 18% 18%",
+          "--destructive": "0 84.2% 60.2%",
+          "--destructive-foreground": "210 20% 98%",
+          "--ring": "31 14% 36%",
+          "--success": "174deg 100% 27%",
+          "--warning": "4deg 82% 58%"
+        }
+      },
+      {
+        "id": "heitma-theme-light-lime",
+        "title": "Light Lime",
+        "description": "Light theme",
+        "baseTheme": "light",
+        "variables": {
+          "--background-2": "132 18% 91%",
+          "--background-3": "132 30% 97%",
+          "--window-toolbar": "132 22% 95%",
+          "--icon": "138 10% 34%",
+          "--background": "132 36% 98%",
+          "--foreground": "142 18% 14%",
+          "--muted": "132 20% 93%",
+          "--muted-foreground": "140 9% 36%",
+          "--popover": "132 36% 98%",
+          "--popover-foreground": "142 18% 14%",
+          "--card": "132 28% 97%",
+          "--card-foreground": "142 18% 14%",
+          "--border": "132 16% 84%",
+          "--input": "132 20% 94%",
+          "--primary": "146 22% 26%",
+          "--primary-foreground": "132 36% 98%",
+          "--secondary": "132 20% 93%",
+          "--secondary-foreground": "142 16% 20%",
+          "--destructive": "0 84.2% 60.2%",
+          "--destructive-foreground": "210 20% 98%",
+          "--ring": "146 18% 38%",
+          "--success": "174deg 100% 27%",
+          "--warning": "4deg 82% 58%"
+        }
+      },
+      {
+        "id": "heitma-theme-light-orange",
+        "title": "Light that Orange",
+        "description": "that orange",
+        "baseTheme": "light",
+        "variables": {
+          "--background-2": "45 20% 90%",
+          "--background-3": "50 21% 95%",
+          "--window-toolbar": "42 22% 92%",
+          "--icon": "18 18% 34%",
+          "--background": "50 24% 96%",
+          "--foreground": "20 20% 13%",
+          "--muted": "45 18% 90%",
+          "--muted-foreground": "22 12% 34%",
+          "--popover": "50 26% 97%",
+          "--popover-foreground": "20 20% 13%",
+          "--card": "50 22% 95%",
+          "--card-foreground": "20 20% 13%",
+          "--border": "36 18% 82%",
+          "--input": "45 18% 91%",
+          "--primary": "16 53% 50%",
+          "--primary-foreground": "50 26% 97%",
+          "--secondary": "45 18% 90%",
+          "--secondary-foreground": "20 18% 18%",
+          "--destructive": "0 84.2% 60.2%",
+          "--destructive-foreground": "210 20% 98%",
+          "--ring": "16 45% 44%",
+          "--success": "174deg 100% 27%",
+          "--warning": "4deg 82% 58%"
+        }
+      }
+    ]
+  },
+  "engines": {
+    "sigmaFileManager": ">=2.0.0"
+  }
+}
