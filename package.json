@@ -15,10 +15,8 @@
   "type": "module",
   "extensionType": "api",
   "tags": [
-    "hetima",
     "theme",
-    "themes",
-    "frappe"
+    "themes"
   ],
   "permissions": [],
   "contributes": {
